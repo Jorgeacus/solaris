@@ -1,0 +1,12 @@
+name: "my-website"
+navbar:
+  title: "SOLARIS - Escola Iniciática"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Serviços"
+      href: servicos.html
+    - text: "Cursos"
+      href: cursos.html
+    - text: "Contato"
+      href: contato.html

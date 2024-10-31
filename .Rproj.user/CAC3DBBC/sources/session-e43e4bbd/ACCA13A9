@@ -1,0 +1,31 @@
+{
+    "id": "ACCA13A9",
+    "path": "~/CursoR2024-Rstudio/Relatório/solaris_site/SOLARIS-LandingPage/servicos.Rmd",
+    "project_path": "servicos.Rmd",
+    "type": "r_markdown",
+    "hash": "204526833",
+    "contents": "",
+    "dirty": false,
+    "created": 1730307929606.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "5,8",
+        "scrollLine": "0",
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "2:147"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1730383462,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1730383462295,
+    "read_only": false,
+    "read_only_alternatives": []
+}

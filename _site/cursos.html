@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Cursos</title>
+
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">SOLARIS - Escola Iniciática</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="servicos.html">Serviços</a>
+</li>
+<li>
+  <a href="cursos.html">Cursos</a>
+</li>
+<li>
+  <a href="contato.html">Contato</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Cursos</h1>
+
+</div>
+
+
+<style>
+body {
+    background-color: #9400d3; /* Roxo Claro */
+    color: white;
+}
+</style>
+<div
+style="background-color: #e6e6fa; color: black; padding: 20px; text-align: justify;">
+<p><strong>Nossos Cursos</strong></p>
+<p>A SOLARIS - Escola Iniciática oferece uma variedade de cursos e
+workshops para o seu desenvolvimento pessoal, profissional e
+espiritual:</p>
+<ul>
+<li><p><strong>Curso de Reiki:</strong> Aprenda a canalizar a energia
+cósmica de cura e equilíbrio. Iniciando os seus estudos e aprendizado
+desta técnica maravilhosa pelo Reiki Nível 1, posteriormente poderá se
+aprofundar nestes estudos e ampliar a sua canalização para as áreas
+mentais e emocionais através do Curso de Reiki Nível 2. E se o seu
+chamado for maior, poderá então vir a se tornar Master em Reiki com os
+Cursos de Nível 3A - Mestre Curador e/ou Nível 3B - Mestre
+Formador.</p></li>
+<li><p><strong>Curso de Numerologia:</strong> Aprenda uma técnica
+simples, rápida e poderosa de ajudar-se a si mesmo e aos outros, no seu
+processo de autodescobrimento, de autoconhecimento com os estudos de
+Numerologia Pitagórica Níveis Básico e Intermediário. Apenas com estes
+dois cursos você será capaz de construir um Mapa Numerológico que irá
+atender as necessidades de seus clientes e suas próprias nesta Jornada
+de Iluminação Pessoal. Será capaz também de orientar clientes que
+desejam iniciar um negócio, fazer uma viagem, iniciar um relacionamento,
+na escolha do nome do bébe, na escolha do nome para uma empresa ou
+negócio, para criar o seu perfil nas redes sociais, canal no Youtube,
+etc. Mas se você quiser aprofundar-se mais nesta técnica, poderá fazer
+connosco o Curso de Numerologia Avançada, onde combinamos o Tarot nestes
+Estudos e assim, ampliará ainda mais os seus conhecimentos e informações
+para usar nos Estudos do Mapa Numerológico Pessoal e/ou
+Empresarial.</p></li>
+<li><p><strong>Curso de Radiestesia e Mesa Radiônica:</strong> Aprenda a
+Trabalhar com as energias disponibilizadas através dos Gráficos
+Radiestésicos e/ou da Mesa Radiônica. Em Radiestesia você aprenderá os
+conceitos e objetivos desta Técnica e receberá as ferramentas
+necessárias para fazer as suas investigações energéticas e para trazer a
+harmonização e o equilíbrio necessários para a sua vida e dos outros. Em
+Mesa Radiônica, você poderá escolher por qual destas Ferramentas
+poderosas poderá começar a sua Jornada de Aprendizado e Trabalho pessoal
+e profissional: Mesa Radiônica da Prosperidade de Lord Ganesha; Mesa
+Radiônica Apométrica de Arcanjo Miguel; Mesa Radiônica da Rosa
+Cristalina. Cada uma com as suas particularidades e objetividades,
+contribuindo assim com a paz, a alegria, a felicidade, a realização e a
+materialização de objetivos, sonhos, planos, projetos e metas pessoais,
+profissionais e espirituais na sua vida e na vida de outras
+pessoas.</p></li>
+<li><p><strong>Curso de Tarot e/ou Cartas Ciganas:</strong> Aprenda a
+desvendar os segredos do passado, do presente e do futuro seu e de seus
+clientes. Desvenda os mistérios das energias e vibrações presentes na
+sua vida e na vida das pessoas que precisarem de seus serviços nesta
+área. Em nosso Curso de Cartas Ciganas, você aprenderá o significado de
+cada carta, no total de 36 Cartas, a combinação entre as mesmas em cada
+Tiragem, várias formas de Tiragens para as mais variadas necessidades.
+Aprenderá técnicas para Ativar os Arquétipos de cada Carta e como usar
+de forma combinada para os mais variados fins. Em nosso Curso de Tarot,
+você aprenderá o significado de cada uma das 78 Cartas - os 22 Arcanos
+Maiores e os 56 Arcanos Menores (subdividos em 4 Naipes). Para além de
+aprender sobre cada Carta, também saberá combinar as mesmas numa
+Leitura, aprenderá vários métodos de Tiragens para os mais variados
+objetivos e fins, aprenderá a fazer a Ativação destes Arquétipos para si
+e para a vida de outras pessoas. Em ambos os Cursos, também receberá
+informações extras para auxiliar ainda mais a si mesmo bem como outras
+pessoas no seu processo de equilíbrio, harmonia, superação e expansão -
+crescimento e desenvolvimento pessoal, profissinal e espiritual. Entre
+estes conhecimentos extras, terás: Florais de Bach, Cristais,
+Cromoterapia, Magia Sideral, Angelical e Elemental, Fitoterapia, Limpeza
+Energética e Proteção Espiritual. E você se beneficia de um
+acompanhamento supervisionado e personalizado ao longo da sua formação,
+de acordo com o Curso escolhido. Ao finalizar o Curso escolhido,
+receberá um Certificado de Participação.</p></li>
+<li><p><strong>Curso de Terapias Holísticas:</strong> Você poderá optar
+em fazer todos os Cursos presentes em nosso Catálogo e muitos outros que
+temos para oferecer, num Combo Especial. Onde você se beneficiará de um
+Desconto Especial, com um tempo maior de acesso aos Cursos e com
+acompanhamento ao longo dos mesmos. Se optar em realizar o pagamento
+deste Combo Especial em até 3x, o Desconto Especial será ainda maior
+(contate-nos para mais informações). <em>ATENÇÃO:</em> Ao final de cada
+Curso haverá uma pequena avaliação do conteúdo assimilado e da(s)
+prática(s) orientadas (como um pequeno estágio), e receberá o seu
+Certificado de Participação. Ao finalizar a totalidade dos Cursos
+contidos neste Combo Especial, receberá então um Certificado de
+Terapeuta Holístico.</p></li>
+</ul>
+<p>Quer participar de um de nossos <strong>cursos</strong>? Quer
+aproveitar o <strong>Combo Especial</strong> e ser um(a) Terapeuta
+Holístico(a)?</p>
+<p>Vá para a Página <strong>contato</strong> e fale conosco.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
