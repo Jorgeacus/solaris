@@ -1,9 +1,7 @@
 name: "my-website"
 navbar:
   title: "SOLARIS - Escola Iniciática"
-  output:
-    html_document:
-      output_dir: "docs"
+  output_dir: "docs"
   left:
     - text: "Home"
       href: index.html

@@ -3,7 +3,7 @@
     "path": "~/CursoR2024-Rstudio/Relatório/solaris_site/SOLARIS-LandingPage/_site.yml",
     "project_path": "_site.yml",
     "type": "yaml",
-    "hash": "2442964533",
+    "hash": "2989253589",
     "contents": "",
     "dirty": false,
     "created": 1729528504331.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "5,24",
+        "cursorPosition": "3,2",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1730389360,
+    "lastKnownWriteTime": 1730390875,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1730389360076,
+    "last_content_update": 1730390875890,
     "read_only": false,
     "read_only_alternatives": []
 }
